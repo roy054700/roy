@@ -22,7 +22,11 @@ public class UserController {
          return"Hello World";  
     } 
 	 
-	 
+	 /**
+	  * 获取数据
+	  * @param user
+	  * @return
+	  */
 	 @RequestMapping("/get")  
 	 @ResponseBody
     public String get(User user) {  
