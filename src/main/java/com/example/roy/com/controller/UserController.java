@@ -34,7 +34,13 @@ public class UserController {
 		 }
         return id;     
     }
+	 
 
+	 /**
+	  * 添加用户
+	  * @param user
+	  * @return
+	  */
 	 @RequestMapping("/add")  
 	 @ResponseBody
     public Integer add(User user) {  
