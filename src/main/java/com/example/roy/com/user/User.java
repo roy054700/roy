@@ -5,6 +5,8 @@ private Integer id;
 private Integer age ;
 private String nama;
 
+private Integer mix;
+
     public Integer getId() {
         return id;
     }
@@ -28,6 +30,12 @@ private String nama;
     public void setNama(String nama) {
         this.nama = nama;
     }
+
+
+
+
+
+
 
     @Override
     public String toString() {
