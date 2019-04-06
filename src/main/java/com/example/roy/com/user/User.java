@@ -6,6 +6,7 @@ private Integer age ;
 private String nama;
 
 private Integer mix;
+    private Integer mix22;
 
     public Integer getId() {
         return id;
