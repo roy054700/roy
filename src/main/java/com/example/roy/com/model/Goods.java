@@ -10,51 +10,54 @@ public class Goods implements Serializable{
 
 	private Integer id;
 
-    private String codeId;
+	private String codeId;
 
-    private String name;
+	private String name;
 
-    private Integer stock;
+	private Integer stock;
 
-    private Long state;
+	private Long state;
 
-    public Integer getId() {
-        return id;
-    }
+	public Integer getId() {
+		return id;
+	}
 
-    public void setId(Integer id) {
-        this.id = id;
-    }
+	public void setId(Integer id) {
+		this.id = id;
+	}
 
-    public String getCodeId() {
-        return codeId;
-    }
+	public String getCodeId() {
+		return codeId;
+	}
 
-    public void setCodeId(String codeId) {
-        this.codeId = codeId;
-    }
+	public void setCodeId(String codeId) {
+		this.codeId = codeId;
+	}
 
-    public String getName() {
-        return name;
-    }
+	public String getName() {
+		return name;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public Integer getStock() {
-        return stock;
-    }
+	public Integer getStock() {
+		return stock;
+	}
 
-    public void setStock(Integer stock) {
-        this.stock = stock;
-    }
+	public void setStock(Integer stock) {
+		this.stock = stock;
+	}
 
-    public Long getState() {
-        return state;
-    }
+	public Long getState() {
+		return state;
+	}
 
-    public void setState(Long state) {
-        this.state = state;
-    }
+	public void setState(Long state) {
+		this.state = state;
+	}
+
 }
+
+	

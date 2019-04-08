@@ -1,5 +1,7 @@
 package com.example.roy.com.service.impl;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,6 +18,12 @@ public class GoodsServiceImpl implements GoodsService{
 	public int insert(Goods record) {
 		// TODO Auto-generated method stub
 		return goodsMapper.insert(record);
+	}
+
+	@Override
+	public List<Goods> selectList() {
+		// TODO Auto-generated method stub
+		return goodsMapper.selectList();
 	}
 
 	

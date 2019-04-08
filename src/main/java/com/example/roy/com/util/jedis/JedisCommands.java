@@ -4,24 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-/*
- * ━━━━━━如来保佑━━━━━━
- * 　　　┏┓　　　┏┓
- * 　　┏┛┻━━━┛┻┓
- * 　　┃　　　━　　　┃
- * 　　┃　┳┛　┗┳　┃
- * 　　┃　　　┻　　　┃
- * 　　┗━┓　　　┏━┛
- * 　　　　┃　　　┗━━━┓
- * 　　　　┃　　　　　　　┣┓
- * 　　　　┃　　　　　　　┏┛
- * 　　　　┗┓┓┏━┳┓┏┛
- * 　　　　　┗┻┛　┗┻┛
- * ━━━━━━永无BUG━━━━━━
- * 图灵学院悟空老师
- * www.jiagouedu.com
- * 悟空老师QQ：245553999
- */
+
 public interface JedisCommands extends redis.clients.jedis.JedisCommands {
     String set(byte[] key, byte[] value);
 

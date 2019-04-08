@@ -12,24 +12,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-/*
- * ━━━━━━如来保佑━━━━━━
- * 　　　┏┓　　　┏┓
- * 　　┏┛┻━━━┛┻┓
- * 　　┃　　　━　　　┃
- * 　　┃　┳┛　┗┳　┃
- * 　　┃　　　┻　　　┃
- * 　　┗━┓　　　┏━┛
- * 　　　　┃　　　┗━━━┓
- * 　　　　┃　　　　　　　┣┓
- * 　　　　┃　　　　　　　┏┛
- * 　　　　┗┓┓┏━┳┓┏┛
- * 　　　　　┗┻┛　┗┻┛
- * ━━━━━━永无BUG━━━━━━
- * 图灵学院-悟空老师
- * www.jiagouedu.com
- * 悟空老师QQ：245553999
- */
+
+
 //@Service
 public class JedisCluster extends redis.clients.jedis.JedisCluster implements JedisCommands {
     private int maxRedirections=5;
@@ -386,5 +370,7 @@ public class JedisCluster extends redis.clients.jedis.JedisCluster implements Je
         }
     */
     }
+    
+    
 
 }

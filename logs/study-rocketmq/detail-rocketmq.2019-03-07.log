@@ -1,0 +1,28 @@
+[03-07 21:49:58 318] main INFO Roy01Application - Starting Roy01Application on PC201609051702 with PID 7040 (E:\dev\roy-01\target\classes started by Administrator in E:\dev\roy-01)
+[03-07 21:49:58 322] main INFO Roy01Application - No active profile set, falling back to default profiles: default
+[03-07 21:49:59 354] main INFO RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+[03-07 21:49:59 357] main INFO RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+[03-07 21:49:59 395] main INFO RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+[03-07 21:49:59 800] main INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c33a48b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[03-07 21:50:00 221] main INFO TomcatWebServer - Tomcat initialized with port(s): 9100 (http)
+[03-07 21:50:00 238] main INFO Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9100"]
+[03-07 21:50:00 253] main INFO StandardService - Starting service [Tomcat]
+[03-07 21:50:00 253] main INFO StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[03-07 21:50:00 261] main INFO AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files\Java\jdk1.8.0_152\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/Program Files/Java/jdk1.8.0_152/bin/../jre/bin/server;D:/Program Files/Java/jdk1.8.0_152/bin/../jre/bin;D:/Program Files/Java/jdk1.8.0_152/bin/../jre/lib/amd64;D:\Program Files\Java\jdk1.8.0_152\bin;D:\sts-bundle\apache-maven-3.5.2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\Git\cmd;D:\maven\bin\;D:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;D:\sts-bundle\sts-3.9.1.RELEASE;;.]
+[03-07 21:50:00 401] main INFO [/] - Initializing Spring embedded WebApplicationContext
+[03-07 21:50:00 401] main INFO ContextLoader - Root WebApplicationContext: initialization completed in 2013 ms
+[03-07 21:50:00 541] main INFO DruidDataSourceAutoConfigure - Init DruidDataSource
+[03-07 21:50:00 783] main INFO DruidDataSource - {dataSource-1} inited
+[03-07 21:50:01 357] main INFO ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+[03-07 21:50:01 718] main INFO ThreadPoolTaskExecutor - Initializing ExecutorService
+[03-07 21:50:02 023] main INFO Http11NioProtocol - Starting ProtocolHandler ["http-nio-9100"]
+[03-07 21:50:02 068] main INFO TomcatWebServer - Tomcat started on port(s): 9100 (http) with context path ''
+[03-07 21:50:02 073] main INFO Roy01Application - Started Roy01Application in 4.145 seconds (JVM running for 5.234)
+[03-07 21:50:44 324] http-nio-9100-exec-5 INFO [/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[03-07 21:50:44 324] http-nio-9100-exec-5 INFO DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[03-07 21:50:44 351] http-nio-9100-exec-5 INFO DispatcherServlet - Completed initialization in 27 ms
+[03-07 21:51:06 457] RMI TCP Connection(2)-127.0.0.1 INFO SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[03-07 21:51:06 457] RMI TCP Connection(3)-127.0.0.1 INFO SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+[03-07 21:51:06 473] RMI TCP Connection(2)-127.0.0.1 INFO ThreadPoolTaskExecutor - Shutting down ExecutorService
+[03-07 21:51:06 480] RMI TCP Connection(2)-127.0.0.1 INFO ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+[03-07 21:51:06 488] RMI TCP Connection(2)-127.0.0.1 INFO DruidDataSource - {dataSource-1} closed

@@ -35,15 +35,16 @@
 		</javaClientGenerator>
 
 	
-		<table tableName="goods" domainObjectName="Goods"
+		<table tableName="student" domainObjectName="Student"
 			   enableCountByExample="false" 
 			   enableDeleteByExample="fasle"
 			   enableSelectByExample="false" 
 			   enableUpdateByExample="false"
-			   selectByExampleQueryId="fasle" 
-			   enableSelectByPrimaryKey="true"
-			   enableUpdateByPrimaryKey="true"
-			   enableDeleteByPrimaryKey="true"/>
+			   selectByExampleQueryId="fasle"  />
+<!-- 			   enableSelectByPrimaryKey="true" -->
+<!-- 			   enableUpdateByPrimaryKey="true" -->
+<!-- 			   enableDeleteByPrimaryKey="true" -->
+			  
 			   
 	</context>
 </generatorConfiguration>

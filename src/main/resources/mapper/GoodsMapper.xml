@@ -51,4 +51,7 @@
       </if>
     </trim>
   </insert>
+  <select id="selectList" resultType="Goods">
+    select * from goods
+  </select>
 </mapper>
