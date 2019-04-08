@@ -7,8 +7,39 @@ private String nama;
 
 private Integer mix;
     private Integer mix22;
+    
+    
+    
 
-    public Integer getId() {
+    /**
+	 * @return the mix
+	 */
+	public Integer getMix() {
+		return mix;
+	}
+
+	/**
+	 * @param mix the mix to set
+	 */
+	public void setMix(Integer mix) {
+		this.mix = mix;
+	}
+
+	/**
+	 * @return the mix22
+	 */
+	public Integer getMix22() {
+		return mix22;
+	}
+
+	/**
+	 * @param mix22 the mix22 to set
+	 */
+	public void setMix22(Integer mix22) {
+		this.mix22 = mix22;
+	}
+
+	public Integer getId() {
         return id;
     }
 
